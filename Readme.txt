@@ -1,46 +1,33 @@
-                                
-		Minesweeper
+# Minesweeper
 
-   Detalii joc:
--programul incepe cu un meniu unde se poate selecta optiunea dorita prin apasarea tastei corespunzatoare:
-	1. Easy - 9x9 casute si 9 mine
-	2. Normal - 9x18 casute si 18 mine
-	3. Hard - 9x26 casute si 27 mine
-	4. Custom - dimensiunea scenei si numarul de mine este la alegerea jucatorului
-	5. Leaderboard - afiseaza top 3 jucatori pentru fiecare mod de joc (Easy, Normal, Hard) in functie de scor si timp
-	6. How to play - afiseaza instructiunile
-	0. Exit - opreste programul
--dupa fiecare runda arata scena cu minele si flagurile puse corect sau gresit (casuta verde pentru cele puse corect si rosie pentru cele puse gresit )
--scena este colorata in gri si am folosit pentru numere urmatoarele culori:
-	1 - albastru
-	2 - verde
-	3 - rosu
-	4 - violet
-	5 - portocaliu
-	6 - turcoaz
-	7 - negru
-	8 - gri inchis
+## Game Details:
+- The program starts with a menu where the desired option can be selected by pressing the corresponding key:
+    1. Easy - 9x9 grid with 9 mines
+    2. Normal - 9x18 grid with 18 mines
+    3. Hard - 9x26 grid with 27 mines
+    4. Custom - the player can choose the grid size and number of mines
+    5. Leaderboard - displays the top 3 players for each game mode (Easy, Normal, Hard) based on score and time
+    6. How to play - displays instructions
+    0. Exit - stops the program
+- After each round, the scene shows the mines and flags placed correctly or incorrectly (green box for correctly placed flags and red for incorrectly placed flags)
+- The scene is colored in gray, and the following colors are used for numbers of mines in nearby:
+    1 - blue
+    2 - green
+    3 - red
+    4 - violet
+    5 - orange
+    6 - turquoise
+    7 - black
+    8 - dark gray
 
+## Instructions:
+- To select a box, type the corresponding column and row (e.q. a3) and then press the ENTER key
+- To place or remove a flag, type 'F' before the coordinates (e.q. Fc2)
+- To win, you must place flags on all mines, but the number of flags must not exceed the number of mines
+- The number in the boxes indicates how many mines are around it
+- To be on the leaderboard, you need to score at least one point
 
-   Instructiuni:
--pentru a selecta o casuta este necesar sa tastezi coloana si linia aferenta apoi apasa tasta ENTER
--pentru a pune sau lua un FLAG este necesar sa pui caracterul 'F' inaintea coordonatelor
--pentru a castiga trebuie sa pui FLAG pe toate minele, dar numarul de FLAG uri nu treebuie sa depaseasca numarul de mine
--numarul din casute afiseaza cate mine se afla in jurul acesteia
--pentru a fi in clasament este necesar sa faci cel putin un punct
-
-
-  Mod implementare:
--am folosit doua scene, cea principala in care sunt casutele ascunse, si una secundara in care se genereaza minele si numerele din casuta
--am folosit functia gotoXY pentru a afisa casutele si textul, jocul fiind cursiv
--am folosit numeroase functii pentru a face programul eficient si pentru a da un aspect placut meniului
-
-
-   Probleme intampinate:
--o problema mare a fost aceea a afisarii spatiului liber, am cautat o solutie timp de cateva zile, iar in final am folosit o coada in care am introdus pe rand coordonatele si le am verificat 
--o alta problema am intalnit-o la conditia generarii unei noi scene in cazul in care pe prima pozitie se afla mina: in cazul in care se punea FLAG pe cel putin o mina iar apoi se selecta o casuta cu mina si se genera o noua scena apareau probleme la numarul de mine ramase si numarul de mine setate , am rezolvat problema prin implementarea unei conditii la generarea minelor din noua scena
--o problema minora a fost cu colorarea casutelor si a textului, am experimentat folosirea culorilor intr-o noua sursa
--o alta problema a fost ordonarea clasamentului, am rezolvat facand matricea cu o dimensiune in plus, astfel 
--a fost dificil sa lucrez cu scena pe coloane deoarece valorile se afla din doua in doua casute si erau necesare cateva calcule mai complicate
-
-
+## Implementation:
+- Two scenes were used, the main one with hidden boxes, and a secondary one where mines and numbers are generated in the box
+- The gotoXY function was used to display the boxes and text, making the game interactive
+- Numerous functions were used to make the program efficient and to give a pleasant appearance to the menu
