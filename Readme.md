@@ -10,15 +10,7 @@
     6. How to play - displays instructions
     0. Exit - stops the program
 - After each round, the scene shows the mines and flags placed correctly or incorrectly (green box for correctly placed flags and red for incorrectly placed flags)
-- The scene is colored in gray, and the following colors are used for numbers of mines in nearby:
-    1 - blue
-    2 - green
-    3 - red
-    4 - violet
-    5 - orange
-    6 - turquoise
-    7 - black
-    8 - dark gray
+- The scene is colored in gray, and the following colors are used for numbers of mines in nearby: 1 - blue, 2 - green, 3 - red, 4 - violet, 5 - orange, 6 - turquoise, 7 - black, 8 - dark gray
 
 ## Instructions:
 - To select a box, type the corresponding column and row (e.q. a3) and then press the ENTER key
