@@ -1,0 +1,12 @@
+﻿  Minesweeper.cpp
+D:\Academie\Anul 1\Barar\Programare\C111C.Barar-Pintea.Daniel-Ioan.P1\Minesweeper\Minesweeper.cpp(76,18): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\Academie\Anul 1\Barar\Programare\C111C.Barar-Pintea.Daniel-Ioan.P1\Minesweeper\Minesweeper.cpp(76,21): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\Academie\Anul 1\Barar\Programare\C111C.Barar-Pintea.Daniel-Ioan.P1\Minesweeper\Minesweeper.cpp(254,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Academie\Anul 1\Barar\Programare\C111C.Barar-Pintea.Daniel-Ioan.P1\Minesweeper\Minesweeper.cpp(540,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Academie\Anul 1\Barar\Programare\C111C.Barar-Pintea.Daniel-Ioan.P1\Minesweeper\Minesweeper.cpp(587,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Academie\Anul 1\Barar\Programare\C111C.Barar-Pintea.Daniel-Ioan.P1\Minesweeper\Minesweeper.cpp(634,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Academie\Anul 1\Barar\Programare\C111C.Barar-Pintea.Daniel-Ioan.P1\Minesweeper\Minesweeper.cpp(1017,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+D:\Academie\Anul 1\Barar\Programare\C111C.Barar-Pintea.Daniel-Ioan.P1\Minesweeper\Minesweeper.cpp(1052,23): warning C4244: 'argument': conversion from 'clock_t' to 'float', possible loss of data
+D:\Academie\Anul 1\Barar\Programare\C111C.Barar-Pintea.Daniel-Ioan.P1\Minesweeper\Minesweeper.cpp(1020,8): warning C4101: 'time': unreferenced local variable
+D:\Academie\Anul 1\Barar\Programare\C111C.Barar-Pintea.Daniel-Ioan.P1\Minesweeper\Minesweeper.cpp(789): warning C4715: 'verification': not all control paths return a value
+  Minesweeper.vcxproj -> D:\Academie\Anul 1\Barar\Programare\C111C.Barar-Pintea.Daniel-Ioan.P1\Minesweeper\Debug\Minesweeper.exe
